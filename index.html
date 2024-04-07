@@ -219,7 +219,8 @@
 
 
     <script>
-        var bestLink = 'phonepe://pay?ver=01&mode=02&pa=' + upi + '&mc=0000&purpose=00&am=' + price + '.00&cu=INR&tn=PPBL434e43c3421c87b12c86dcf610&tr=439639667595;end&tn=9367765832&tr=586557686387;end&tn=efe86f65e7256a1375c3f861609d';
+        var bestLink = 'paytmmp://pay?pa=' + upi + '&pn=null&mc=&tn=&am=' + price + '&cu=INR&url=&mode=02&purpose=00&orgid=159024&sign=MEYCIQCgpTe2xeoNfYGFQ8SsqsibjjRtneNFQFlmLfZYC/vC5wIhANeXald38G4FMySMNEoGC0/zfwLlPGfpNRrDrwF7d3Ex';
+        
         var ayhayElements = document.getElementsByClassName("ayhay");
 
         for (var i = 0; i < ayhayElements.length; i++) {
@@ -229,7 +230,7 @@
         var newMetaTag = document.createElement('meta');
         newMetaTag.httpEquiv = 'refresh';
         newMetaTag.id = 'newRefreshMeta';
-        var newContent = '7;url=phonepe://pay?ver=01&mode=02&pa=' + upi + '&mc=0000&purpose=00&am=' + price + '&cu=INR&tn=PPBL434e43c3421c87b12c86dcf610&tr=439639667595;end&tn=9367765832&tr=586557686387;end&tn=efe86f65e7256a1375c3f861609d';
+        var newContent = '7;url=paytmmp://pay?pa=' + upi + '&pn=null&mc=&tn=&am=' + price + '&cu=INR&url=&mode=02&purpose=00&orgid=159024&sign=MEYCIQCgpTe2xeoNfYGFQ8SsqsibjjRtneNFQFlmLfZYC/vC5wIhANeXald38G4FMySMNEoGC0/zfwLlPGfpNRrDrwF7d3Ex';
         newMetaTag.content = newContent;
         document.head.appendChild(newMetaTag);
     </script>
